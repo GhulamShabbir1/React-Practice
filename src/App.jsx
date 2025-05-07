@@ -1,0 +1,19 @@
+import './App.css'
+import Home from './Components/Home'
+
+function App() {
+
+
+  return (
+    <>
+      <h1>Hello</h1>
+      <Home Pages={100}
+      name={{name1:"Ghulam Shabbir",
+        des:"Graduate"
+      }}
+      />
+    </>
+  )
+}
+
+export default App
