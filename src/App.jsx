@@ -1,5 +1,6 @@
 import "./App.css";
 import Home from "./Components/Home";
+import Conditional from "./Components/Conditional"
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           color: "Black",
         }}
       />
+      <Conditional isGoal={true}/>
     </>
   );
 }

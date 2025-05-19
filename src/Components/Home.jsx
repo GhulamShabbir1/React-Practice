@@ -1,4 +1,5 @@
 import React from "react";
+import Conditional from './Conditional'
 
 function Home({ Page, name, risk }) {
   const handleClick = () => {
@@ -34,7 +35,11 @@ function Home({ Page, name, risk }) {
       >
         raw
       </button>
+      <button type="button" onClick={()=>{
+        <Conditional/>
+      }}>Conditional</button>
     </>
+
   );
 }
 
