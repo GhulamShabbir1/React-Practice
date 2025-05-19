@@ -14,7 +14,7 @@ function Conditional({isGoal}) {
         This Conditional Statement 
     </h1>
     if({goal}){
-       alert("Answer is",goalDone()) 
+       alert(goalDone()) 
     } else
     {
         alert("Answer is ",notGoal())
