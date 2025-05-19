@@ -13,13 +13,12 @@ function Conditional({isGoal}) {
     <h1>
         This Conditional Statement 
     </h1>
-    {/* if({goal}==true){
-        goalDone
-    }
-    else
+    if({goal}){
+       alert("Answer is",goalDone()) 
+    } else
     {
-        notGoal
-    } */}
+        alert("Answer is ",notGoal())
+    }
     </>
   )
 }
